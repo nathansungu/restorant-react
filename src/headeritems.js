@@ -6,7 +6,7 @@ import { TbSaladFilled } from "react-icons/tb";
 
 
 const headerItems = [
-    {scr: GiAllForOne, name: "all"},
+    {scr: <GiAllForOne/>, name: "all"},
     {scr: LiaGlassMartiniAltSolid, name: "drinks"},
     {scr: IoMdPizza, name: "pizza"},
     {scr: TbSaladFilled, name: "salad"},
