@@ -92,9 +92,27 @@ body{
   height: 25vh;
   border-radius: .5rem;
 }
+.image-container{
+  position: relative;
+  display: inline-block;
+}
+.discount {
+  position: absolute;
+  top: 0px;
+  left: 0px;  
+  background-color:orange;
+  color: white;
+  padding: .2rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  font-weight: bold;
+}
+
+
 
 .price{
   font-weight: 800;
+  color: red;
 }
 
 .originalprice{
